@@ -1,0 +1,3 @@
+*.pyc
+*~
+blogofile_plugin_example.egg-info/*
