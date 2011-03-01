@@ -13,7 +13,14 @@ To use this plugin:
 
         pip install -e git://github.com/EnigmaCurry/blogofile_plugin_example.git#egg=blogofile_plugin_example
 
-* Configure your site's _config.py:
+* Check that blogofile recognizes the plugin:
+
+        blogofile plugin list
+
+        example (0.1) - A minimal photo gallery as an example plugin - Ryan McGuire
+
+        
+* Configure your site's `_config.py`:
 
         plugins.example.enabled = True
 
