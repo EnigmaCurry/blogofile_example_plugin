@@ -37,7 +37,7 @@ To use this plugin:
 
   Also notice the command line entry points that got installed (they don't really *do* anything, just showing you what's possible):
 
-       ryan@Sovereign:~$ bfdev help example
+       ryan@Sovereign:~$ blogofile help example
        example - Plugin: A minimal photo gallery as an example plugin
        usage: -c example [-h] [-s DIR] [--version] [-v] [-vv]
        {command1,command2       } ...
