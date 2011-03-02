@@ -35,7 +35,7 @@ To use this plugin:
   Your photos will be copied to the gallery path you defined.
 
 
-  Also notice the command line entry points that got installed:
+  Also notice the command line entry points that got installed (they don't really *do* anything, just showing you what's possible):
 
        ryan@Sovereign:~$ bfdev help example
        example - Plugin: A minimal photo gallery as an example plugin
