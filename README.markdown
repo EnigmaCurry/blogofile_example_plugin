@@ -47,13 +47,4 @@ To use this plugin:
            command1            Example Command 1
            command2            Example Command 2
        
-       optional arguments:
-         -h, --help            show this help message and exit
-         -s DIR, --src-dir DIR
-                               Your site's source directory (default is current
-                               directory)
-         --version
-         -v, --verbose         Be verbose
-         -vv, --veryverbose    Be extra verbose
-       
   You can add your own in commands.py.
