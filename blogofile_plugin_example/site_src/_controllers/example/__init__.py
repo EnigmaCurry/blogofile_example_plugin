@@ -4,13 +4,6 @@ from blogofile.cache import bf
 
 import blogofile_plugin_example as plugin
 
-meta = {
-    "name": "Example Controller",
-    "author": "Ryan McGuire",
-    "description": "Creates a dumb little photo gallery",
-    "version": "0.1",
-    }
-
 def init():
     #Any setup you need to do before running goes here.
     pass
