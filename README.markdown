@@ -46,5 +46,10 @@ To use this plugin:
          {command1,command2}
            command1            Example Command 1
            command2            Example Command 2
-       
+
+       ryan@Sovereign:~$ blogofile example command1 --extra-coolness
+
+       This is command1.
+       It's as cool as can be.
+
   You can add your own in commands.py.
