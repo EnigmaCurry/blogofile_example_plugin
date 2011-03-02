@@ -35,3 +35,25 @@ To use this plugin:
   Your photos will be copied to the gallery path you defined.
 
 
+  Also notice the command line entry points that got installed:
+
+       ryan@Sovereign:~$ bfdev help example
+       example - Plugin: A minimal photo gallery as an example plugin
+       usage: -c example [-h] [-s DIR] [--version] [-v] [-vv]
+       {command1,command2       } ...
+       
+       positional arguments:
+         {command1,command2}
+           command1            Example Command 1
+           command2            Example Command 2
+       
+       optional arguments:
+         -h, --help            show this help message and exit
+         -s DIR, --src-dir DIR
+                               Your site's source directory (default is current
+                               directory)
+         --version
+         -v, --verbose         Be verbose
+         -vv, --veryverbose    Be extra verbose
+       
+  You can add your own in commands.py.
