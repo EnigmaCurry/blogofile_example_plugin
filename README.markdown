@@ -30,7 +30,7 @@ To use this plugin:
 
   You can supply your own photos with:
 
-        plugins.example.galelry.src = "/path/to/my/photos"
+        plugins.example.gallery.src = "/path/to/my/photos"
 
   Your photos will be copied to the gallery path you defined.
 
