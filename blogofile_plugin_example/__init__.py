@@ -1,12 +1,16 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
-import urlparse
+# -*- coding: utf-8 -*-    
 import logging
 import blogofile
 import blogofile.plugin
 from blogofile.cache import bf, HierarchicalCache as HC
+try:
+    import urllib.parse as urlparse
+except ImportError:
+    #Python 2
+    import urlparse
 
-import commands
+from . import commands
 
 ## Configure the plugin meta information:
 __dist__ = dict(

@@ -10,7 +10,7 @@ def init():
 
 def run():
     #Run the controller
-    import photos
+    from . import photos
     photos.copy_photos()
     photo_files = photos.get_photo_names()
     photos.write_pages(photo_files)

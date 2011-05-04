@@ -1,10 +1,10 @@
-import argparse
 import shutil
 import sys
 import os, os.path
 import imp
 
 import blogofile.main
+from blogofile import argparse
 
 ## These are commands that are installed into the blogofile
 ## command-line utility. You can turn these off entirely by removing
@@ -34,15 +34,15 @@ def setup(parent_parser, parser_template):
 #These are the actual command actions:
     
 def do_command1(args):
-    print ""
-    print "This is command1."
+    print("")
+    print("This is command1.")
     if args.extra_coolness:
-        print "It's as cool as can be."
+        print("It's as cool as can be.")
     else:
-        print "It could be cooler though with --extra-coolness"
+        print("It could be cooler though with --extra-coolness")
         
 def do_command2(args):
-    print ""
-    print "This is command2."
-    print "Required ARG1 = {0}".format(args.ARG1)
-    print "Optional ARG2 = {0}".format(args.ARG2)
+    print("")
+    print("This is command2.")
+    print("Required ARG1 = {0}".format(args.ARG1))
+    print("Optional ARG2 = {0}".format(args.ARG2))
